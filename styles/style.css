@@ -103,6 +103,7 @@ nav {
 
 .content-lado-direito h1 {
     font-size: 40px;
+    font-weight: 300;
 }
 
 .content-lado-direito p {
@@ -153,7 +154,8 @@ nav {
 }
 
 .hist-lado-direito h1 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 300;
 }
 
 .hist-lado-direito p {
@@ -169,4 +171,43 @@ nav {
     padding: 70px;
     font-size: 20px;
     text-align: justify;
+}
+
+.background-quem-somos {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.lado-esquerdo-quem-somos {
+    width: 40%;
+    background-color: rgb(255, 237, 246);
+    display: flex;
+}
+
+.quem-somos-le {
+    width: 50%;
+}
+
+.quem-somos-ld {
+    width: 50%;
+    padding: 30px;
+}
+
+.quem-somos-ld h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.quem-somos-ld h2 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.quem-somos-ld p {
+    padding-top: 10px;
+}
+
+.lado-direito-quem-somos {
+    width: 60%;
+    background-color: rgb(253, 201, 227);
 }
