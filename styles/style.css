@@ -75,3 +75,98 @@ nav {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
+
+.background-ser {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lado-esquerdo-ser {
+    width: 40%;
+    background-color: rgb(255, 237, 246);
+    display: flex;
+}
+
+.content-lado-esquerdo {
+    width: 50%;
+}
+
+.content-lado-direito {
+    width: 50%;
+    padding: 30px;
+}
+
+.content-lado-direito h2 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.content-lado-direito h1 {
+    font-size: 40px;
+}
+
+.content-lado-direito p {
+    padding-top: 10px;
+}
+
+
+.lado-direito-ser {
+    font-size: 35px;
+    width: 60%;
+    display: flex;
+    background-color: rgb(253, 201, 227);
+}
+
+.lado-direito-ser ul{
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.lado-direito-ser ul li {
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+.background-hist {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lado-esquerdo-hist {
+    width: 40%;
+    background-color: rgb(253, 201, 227);
+    display: flex;
+}
+
+.hist-lado-esquerdo {
+    width: 50%;
+}
+
+.hist-lado-direito {
+    width: 50%;
+    padding: 30px;
+}
+
+.hist-lado-direito h2 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.hist-lado-direito h1 {
+    font-size: 40px;
+}
+
+.hist-lado-direito p {
+    padding-top: 10px;
+}
+
+.lado-direito-hist {
+    width: 60%;
+    background-color: rgb(255, 237, 246);
+}
+
+.lado-direito-hist p {
+    padding: 70px;
+    font-size: 20px;
+    text-align: justify;
+}
