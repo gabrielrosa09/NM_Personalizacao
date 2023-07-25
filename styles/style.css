@@ -269,3 +269,16 @@ nav {
     margin: 0 auto;
     display: block;
 }
+
+footer {
+    background-color: rgb(255, 123, 189);
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+}
