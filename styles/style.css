@@ -211,3 +211,61 @@ nav {
     width: 60%;
     background-color: rgb(253, 201, 227);
 }
+
+.contato {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.lado-esquerdo-contato {
+    width: 40%;
+    background-color:  rgb(253, 201, 227);
+    display: flex;
+}
+
+.contato-le {
+    width: 50%;
+}
+
+.contato-ld {
+    width: 50%;
+    padding: 30px;
+}
+
+.contato-ld h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.contato-ld h2 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.lado-direito-contato {
+    width: 60%;
+    background-color:rgb(255, 237, 246);
+}
+
+.text-success {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-success h2{
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.text-success a {
+    text-decoration: none;
+}
+
+.success img {
+    padding-top: 5%;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
