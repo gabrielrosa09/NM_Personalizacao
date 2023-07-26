@@ -104,42 +104,74 @@
             </div>
         </div>
         <div class="lado-direito-contato">
-            <form action="/action_page.html" target="_self">
-                <label for="fname">Nome:</label>
-                <input type="text" id="fname" name="fname">
-                <label for="fsobrenome">Sobrenome:</label>
-                <input type="text" id="fsobrenome" name="fsobrenome"><br/>
-                <label for="femail">Email:</label>
-                <input type="email" id="femail" name="femail">
-                <label for="ftel">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone"><br/>
-                <label for="fmessage">Mensagem:</label>
-                <input type="text" id="fmessage" name="fmessage"><br/>
-                <input type="submit" value="Enviar">
-            </form>
+            <div class="box" id="boxid">
+                <form
+                  target="_self"
+                  action="/action_page.html"
+                  id="id-form"
+                >
+                  <fieldset>
+                    <legend><b>SOLICITE UM ORÇAMENTO</b></legend>
+                    <br />
+                    <div class="inputBox">
+                      <input
+                        type="text"
+                        name="nome"
+                        id="nome"
+                        class="inputUser"
+                        required
+                      />
+                      <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <br />
+                    <div class="inputBox">
+                      <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        class="inputUser"
+                        required
+                      />
+                      <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <br />
+                    <div class="inputBox">
+                      <input
+                        type="tel"
+                        name="telefone"
+                        id="telefone"
+                        class="inputUser"
+                        required
+                      />
+                      <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br />
+                    <div class="inputBox">
+                      <input
+                        type="text"
+                        name="mensagem"
+                        id="mensagem"
+                        class="inputUser"
+                        required
+                      />
+                      <label for="tipo-material" class="labelInput"
+                        >Escreva aqui os produtos e a quantidade!</label
+                      >
+                    </div>
+                    <input
+                      type="submit"
+                      name="submit"
+                      id="submit"
+                    />
+                  </fieldset>
+                </form>
+            </div>
+        </div>
     </section>
-
     <footer>
         <p>Copyright © 2023 Gabriel Rosa & Gustavo Rosa</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </body>
 </html>
 
-
-<script>
-    const input = document.querySelector("#telefone");
-    window.intlTelInput(input, {
-      separateDialCode: true,
-      initialCountry: "br", // Define o país pré-selecionado como Brasil
-      preferredCountries: ["us", "br", "es", "fr"], // Países preferenciais exibidos no topo da lista
-      autoHideDialCode: false, // Mantém o código de discagem visível
-      utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // Necessário para a formatação do número
-      geoIpLookup: function(success, failure) { // Define uma função para obter automaticamente o país do usuário
-        // Simulação: Retorna "br" como código de país para o Brasil
-        const countryCode = "br";
-        success(countryCode);
-      },
-      initialCountryGuess: "aggregated" // Usa a função de geoIpLookup para determinar o país inicial
-    });
-</script>
+<script src="js/scripts.js"></script>
