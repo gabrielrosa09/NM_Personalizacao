@@ -25,7 +25,7 @@ body .container {
 
 #filter-buttons button.active {
   color: #fff;
-  background: #6c757d;
+  background:  rgb(245, 103, 174);
 }
 
 #filterable-cards .card {
