@@ -1,3 +1,4 @@
 {
-    "editor.linkedEditing": false
+    "editor.linkedEditing": false,
+    "livePreview.defaultPreviewPath": "/galeria.html"
 }
