@@ -20,7 +20,7 @@ nav {
     padding: 20px;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .logo {
@@ -28,6 +28,10 @@ nav {
     color: white;
     font-size: 25px;
     font-weight: 700;
+}
+
+.logo img  {
+    width: 40%;
 }
 
 .background-main {
@@ -191,7 +195,7 @@ nav {
 
 .quem-somos-ld {
     width: 50%;
-    padding: 30px;
+    padding: 40px;
 }
 
 .quem-somos-ld h1 {
@@ -205,13 +209,38 @@ nav {
 }
 
 .quem-somos-ld p {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .lado-direito-quem-somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 60%;
     background-color: rgb(253, 201, 227);
 }
+
+.photo {
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.photo h3 {
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.photo p {
+    padding-top: 3px;
+    font-size: 15px;
+    text-align: center;
+}
+
 
 .contato {
     display: flex;
